@@ -88,7 +88,7 @@ The document is **not currently open-licensed**. Redistribution, reuse, or incor
   * [Programming to an Interface: The Power of `Protocol`](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#programming-to-an-interface-the-power-of-protocol)
   * [Trust, But Verify: Runtime Type Enforcement](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#trust-but-verify-runtime-type-enforcement)
 - [Appendix 2: Anatomy of Type Declarations and Associated Vocabulary](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#appendix-2-anatomy-of-type-declarations-and-associated-vocabulary)
-  * [1\. [Variable / Attribute Annotation](https://peps.python.org/pep-0526/)](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#1-variable--attribute-annotationhttpspepspythonorgpep-0526)
+  * [1\. Variable / Attribute Annotation](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#1-variable--attribute-annotation)
   * [2\. Function / Method Annotation](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#2-function--method-annotation)
   * [3\. Generic Type Annotation](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#3-generic-type-annotation)
   * [4\. [Type Alias Declaration](https://peps.python.org/pep-0695/)](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#4-type-alias-declarationhttpspepspythonorgpep-0695)
