@@ -33,7 +33,9 @@ You should assume the document is *directionally correct but not yet final*. If 
 This is a public, timestamped draft. It should not yet be treated as authoritative or complete.
 
 The document is **not currently open-licensed**. Redistribution, reuse, or incorporation into other works outside this repository is not permitted without explicit permission from the author. Licensing and attribution terms may change once the document stabilizes.
-https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#core-annotation-syntax
+
+
+##Table of Contents
 ---
 - [Overview of Python Type Hinting (aka typing)](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#overview-of-python-type-hinting-aka-typing)
   * [Preface](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#preface)
