@@ -37,7 +37,7 @@ The document is **not currently open-licensed**. Redistribution, reuse, or incor
 ---
 
 ## Table of Contents
- - [Overview of Python Type Hinting (aka typing)](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#overview-of-python-type-hinting-aka-typing)
+- [Overview of Python Type Hinting (aka typing)](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#overview-of-python-type-hinting-aka-typing)
   * [Preface](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#preface)
   * [Brief Discussion of Type Theory, Type Systems, and Role of Type Hinting](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#brief-discussion-of-type-theory-type-systems-and-role-of-type-hinting)
   * [New Adopters - Where Have You Seen This and Why Does It Matter?](https://github.com/JBogEsq/python_type_hinting_guide/blob/main/type_hinting_git_v0.1.md#new-adopters---where-have-you-seen-this-and-why-does-it-matter)
