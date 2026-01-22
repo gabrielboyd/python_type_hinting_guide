@@ -33,80 +33,159 @@ The document is **not currently open-licensed**. Redistribution, reuse, or incor
 
 ---
 
-## Table of Contents
+# Table of Contents
 
-1. **Overview of Python Type Hinting (aka typing)**
+## Overview of Python Type Hinting (aka typing)
 
-   * Preface
-   * Type Theory, Type Systems, and the Role of Type Hinting
-   * Duck Typing and Structural Typing in Python
-   * Typing as Epistemic Resolution and Semantic Fidelity
-   * General Organization
+* Preface
+* Brief Discussion of Type Theory, Type Systems, and Role of Type Hinting
+* Duck Typing Remains Python's Idiomatic Approach
+* New Adopters – Where Have You Seen This and Why Does It Matter?
+* Typing as Epistemic Resolution and Semantic Fidelity
+* General Organization
+* Syntax Parallels Object Declarations
+* Type Hints Require Structural Specificity
+* Related Features
 
-2. **Core Syntax and Concepts**
+---
 
-   * Type Annotation Syntax
-   * Type Aliases and the `type` Statement
-   * Collections and Element Typing
-   * Structured vs. Uniform Tuples
-   * Built-in Generics vs. Legacy `typing` Forms
+## Python's Native Typing Support
 
-3. **Type Specificity and Ambiguity**
+* Standard Typing Support
+* The Modern Standard: Built-in Generics
 
-   * Union Types
-   * `Any` vs. `object`
-   * Type Ambiguity and Refinement
-   * Narrowing, Widening, and Resolution
-   * The Robustness Principle for APIs
+---
 
-4. **Type Inference and Control-Flow Resolution**
+## Core Annotation Syntax
 
-   * Inference as State Approximation
-   * Conditional Resolution
-   * Numeric Type Promotion
-   * Assertions as Proof
-   * `typing.cast` as Promise
+* Annotating Variables and Attributes
+* Annotating Function and Method Parameters
+* Annotating Function and Method Return Values
+* Type Specificity and Flexibility: Union, Any, and object
+* Handling Names Not Yet Defined (Forward References)
+* Simplifying Complex Signatures with Type Aliases
+* Generic Type Aliases
 
-5. **Advanced Narrowing and Structural Typing**
+---
 
-   * `TypeIs` and `TypeGuard`
-   * Custom Type Guards
-   * Pattern Matching with `match`
-   * Structural Resolution and Exhaustiveness
+## Tuples: Structured Records vs. Uniform Collections
 
-6. **Typing Data at the Boundary (Critical Use Case)**
+* Structured Tuples: Describing a Shape
+* Variadic Tuples: Describing a Uniform Sequence
 
-   * Untyped Input and the Collapse of Static Guarantees
-   * `TypedDict` for Lightweight Boundaries
-   * Required vs. Optional Keys
-   * Parsing into Dataclasses
-   * Eliminating Invalid States
+---
 
-7. **Typing Functions and Callables**
+## Typing Collections
 
-   * `Callable` and Function Shape
-   * Overloads and Ad-hoc Polymorphism
-   * `Never` and Unreachable Code
-   * `Self` and Fluent Interfaces
-   * `@override` and Structural Contracts
+---
 
-8. **Typing Asynchronous Code**
+## Type Inference and Resolution
 
-   * Coroutines and Awaitables
-   * Async Functions as Callables
-   * `Awaitable` vs. `Coroutine`
-   * Async Iterables and Generators
+* Resolving to a Common Type
+* Numeric Type Promotion
+* Conditional Resolution
+* Advanced Type Narrowing with Custom Guards
+* Structural Resolution
 
-9. **Related and Supporting Features**
+---
 
-   * Immutability and Read-only Types
-   * Class vs. Instance Attributes
-   * Literals, Enums, and Value Constraints
-   * Tooling Notes (mypy, pyright, IDEs)
+## Advanced Narrowing: Promises vs. Proof
 
-10. **Appendices**
+* `typing.cast`: An Unconditional Promise
+* Type Guards: Conditional Proof
+* Side-by-Side Comparison
+* When to Use Which
 
-    * Architectural Best Practices
-    * Typing Nomenclature and Terminology
-    * Key PEPs and Design Rationale
-    * Glossary of Type-Theoretic Terms
+---
+
+## CRITICAL USE CASE: Typing Data from the Edge
+
+* The Lightweight Solution: `TypedDict`
+* Handling Optional Keys in `TypedDict`
+* The Robust Solution: Parsing into Data Classes
+* Note on Performance
+* When to Use Which
+
+---
+
+## Typing Functions: Synchronous vs. Asynchronous
+
+* Typing Synchronous Functions and Methods
+* Typing Asynchronous Code
+
+---
+
+## Creating Generic Functions with `TypeVar`
+
+---
+
+## Constraining `TypeVar`: `bound` and Variance
+
+* Establishing Structural Requirements with `bound`
+* Defining Relational Behavior with Variance
+
+---
+
+## Advanced Generic Callables: Higher-Order Functions
+
+* Basic Interaction of `TypeVar` with `Callable`
+* Handling a Variable Number of Types
+* Typing Sequences Using the `*` Syntax
+
+---
+
+## Advanced Generic Callables: Wrappers
+
+* Preserving Signatures with `ParamSpec`
+
+---
+
+## Additional Typing Module Functionality
+
+* The Specialist's Toolkit: The `typing` Module
+* Attribute, Value, and Structural Constraints
+
+---
+
+# Appendices
+
+## Appendix 1: Architectural Best Practices: Building Flexible and Robust Code
+
+* Programming to an Interface: The Power of `Protocol`
+* Trust, But Verify: Runtime Type Enforcement
+
+---
+
+## Appendix 2: Anatomy of Type Declarations and Associated Vocabulary
+
+* Variable / Attribute Annotation
+* Function / Method Annotation
+* Generic Type Annotation
+* Type Alias Declaration
+* Variadic Annotations
+
+---
+
+## Appendix 3: The Typing Tools Ecosystem
+
+* IDEs and First-Line Checking
+* Static Type Checkers
+* Runtime Validation
+* Programmatic Type Checking and Automation
+* Getting Started
+* The Big Picture
+
+---
+
+## Appendix 4: Major Typing Enhancement Proposals (PEPs)
+
+* Foundational PEPs
+* Structural and Value Constraints
+* Syntactic Simplification
+* Advanced Generics and Callables
+* Type Narrowing and Method Contracts
+
+---
+
+## Glossary of Typing Terminology
+
